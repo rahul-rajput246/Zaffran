@@ -1,4 +1,4 @@
-/* Restoria - Restaurants HTML Template */
+/* Zaffran - Luxury Indian Fine Dining */
 
 
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
@@ -123,6 +123,11 @@
 
  ***/
 
+html {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
 body {
     font-family: var(--font-family-Urbanist);
     font-size:16px;
@@ -133,6 +138,9 @@ body {
     letter-spacing: 1px;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
+    overflow-x: hidden;
+    max-width: 100%;
+    position: relative;
 }
 
 a{
@@ -259,8 +267,10 @@ p{
     position:relative;
     margin:0 auto;
     width:100%;
+    max-width:100%;
     min-width:300px;
     overflow: hidden;
+    overflow-x: hidden;
 }
 
 .auto-container{

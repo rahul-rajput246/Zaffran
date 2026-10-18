@@ -1,4 +1,4 @@
-/* Restoria - Restaurants HTML Template */
+/* Zaffran - Luxury Indian Fine Dining */
 
 
 /* TABLE OF CONTENT 
@@ -1346,6 +1346,7 @@ body.visible-sidebar{
   position: relative;
   padding: 0 0;
   background: var(--color-two);
+  overflow: hidden;
 }
 
 .banner-section .bottom-curve {
@@ -1774,7 +1775,7 @@ body.visible-sidebar{
 /* Container positioning */
 .banner-section .banner-call {
   position: absolute;
-  right: -50px;
+  right: 30px;
   top: 50%;
   transform: translateY(-50%);
   display: flex;
@@ -2243,6 +2244,7 @@ body.visible-sidebar{
 .special-dish{
   position: relative;
   background: var(--color-five);
+  overflow: hidden;
 }
 
 .special-dish .right-bg{
@@ -2670,6 +2672,7 @@ body.visible-sidebar{
 
 .special-offer{
   position: relative;
+  overflow: hidden;
 }
 
 .fluid-section.special-dish-slider .inner {
@@ -3501,6 +3504,7 @@ body.visible-sidebar{
   position: relative;
   padding: 300px 0;
   background: var(--color-two);
+  overflow: hidden;
 }
 
 .intro-section .image-layer{
@@ -5092,6 +5096,7 @@ footer .bottom_footer .social_media li a:hover {
 .testimonials-two{
   position: relative;
   background: var(--color-one);
+  overflow: hidden;
 }
 
 .special-offer .carousel-box{
@@ -5389,6 +5394,7 @@ footer .bottom_footer .social_media li a:hover {
 .why-us-two{
   position: relative;
   background-color:var(--color-two);
+  overflow: hidden;
 }
 
 .why-us-two .left-bg{
