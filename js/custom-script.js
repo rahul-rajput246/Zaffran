@@ -60,14 +60,17 @@ if($('.main-header').length){
     }
 	
 	
-	//Update Scroll to Top (Navbar is static at top)
+	//Update Header Style and Scroll to Top (Sticky after scroll)
 	function headerStyle() {
 		if($('.main-header').length){
 			var windowpos = $(window).scrollTop();
+			var siteHeader = $('.main-header');
 			var scrollLink = $('.scroll-to-top');
-			if (windowpos >= 200) {
+			if (windowpos >= 180) {
+				siteHeader.addClass('fixed-header');
 				scrollLink.fadeIn(300);
 			} else {
+				siteHeader.removeClass('fixed-header');
 				scrollLink.fadeOut(300);
 			}
 		}
